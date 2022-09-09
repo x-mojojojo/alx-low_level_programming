@@ -6,20 +6,13 @@
  */
 int main(void)
 {
-	char alphabet = 'a';
-	char ALPHABET = 'A';
+	char alphabet ;
 	char new_line = '\n';
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-	{
 		putchar(alphabet);
-	}
-	
-    for (ALPHABET = 'A'; ALPHABET <= 'Z'; ALPHABET++)
-	{
-		putchar(ALPHABET);
-	}
+	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
+		putchar(alphabet);
 	putchar(new_line);
-
 	return (0);
 }
