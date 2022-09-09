@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char alphabet ;
+	char alphabet;
 	char new_line = '\n';
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
