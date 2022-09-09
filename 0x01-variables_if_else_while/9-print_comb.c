@@ -4,7 +4,7 @@
  * main - numbers separated by a comma
  * Return: return 0 if successful
  */
-int main()
+int main(void)
 {
 	int i;
 
