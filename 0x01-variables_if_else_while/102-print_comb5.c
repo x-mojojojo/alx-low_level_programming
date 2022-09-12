@@ -2,22 +2,30 @@
 
 /**
  * main - main function
- * Return: return 0 if successful 48 57
+ * Return: return 0 if successful
  */
 int main(void)
 {
 	int i, j;
 
-	for (i = 48; i <= 57; i++)
+	for (i = 0; i < 100; i++)
 	{
-		for (j = 48; j <= 57; j++)
+		for (j = 0; j < 100; j++)
 		{
-			putchar(i);
-			putchar(j);
-			if (i == 57 && j == 57)
-				break;
-			putchar(',');
-			putchar(' ');
+			if (i < j)
+			{
+				putchar((i / 10) + 48);
+				putchar((i % 10) + 48);
+				putchar('\t');
+				putchar((j / 10) + 48);
+				putchar((j % 10) + 48);
+				if (i != 98 || j != 99)
+				{
+					putchar(',');
+					putchar('\t');
+				}
+			}
+
 		}
 	}
 	putchar('\n');
