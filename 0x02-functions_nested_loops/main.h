@@ -1,2 +1,2 @@
-#define _PUTCHAR "_putchar"
-void print_alphabet(void)
+int _putchar(void);
+void print_alphabet(void);
