@@ -9,7 +9,7 @@
 void more_numbers(void)
 {
 	int i, j, round;
-	
+
 	for (round = 1; round <= 10; round++)
 	{
 		for (i = 48; i <= 49; i++)
@@ -31,5 +31,4 @@ void more_numbers(void)
 		}
 		_putchar('\n');
 	}
-	
 }
