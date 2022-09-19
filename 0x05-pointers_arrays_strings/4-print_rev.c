@@ -6,19 +6,17 @@
  * Return: void
  */
 
-void print_rev(char* s)
+void print_rev(char *s)
 {
 	int i;
 
 	i = 0;
 
-	do
-	{
+	do {
 		i++;
 	} while (s[i] != '\0');
 
-	do
-	{
+	do {
 		i--;
 		_putchar(s[i]);
 	} while (i >=0);
