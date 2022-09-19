@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * puts2 - alternate characters of a string
+ * @str: string
+ * Return: void
+ */
+
 void puts2(char* str)
 {
 	int i;
