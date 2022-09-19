@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void rev_string(char* s)
+void rev_string(char *s)
 {
 	int i, maximum, half;
 	char first_part, last_part;
