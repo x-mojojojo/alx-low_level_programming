@@ -12,8 +12,7 @@ void _puts(char *str)
 
 	if (str[0] != '\0')
 	{
-		do
-		{
+		do {
 			_putchar(str[i]);
 			i++;
 		} while (str[i] != '\0');
