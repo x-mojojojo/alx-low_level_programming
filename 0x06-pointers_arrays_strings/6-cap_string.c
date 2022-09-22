@@ -9,8 +9,10 @@
 char *cap_string(char *str)
 {
     int i;
+    i = 0;
 
-    if (str[0] != '\0')
+    while (str[i] != '\0')
+    {
         for (i = 0; str[i]; i++)
         {
             if (str[i] == '}' ||
@@ -33,5 +35,7 @@ char *cap_string(char *str)
                 }
             }    
         }
+    return (str);
+    }
     return (str);
 }
