@@ -9,24 +9,23 @@
 
 char *leet(char *str)
 {
-	int i = 0;
+	int count = 0, i;
+	int lower_case[] = {97, 101, 111, 116, 108};
+	int upper_case[] = {65, 69, 79, 84, 76};
+	int ieet[] = {52, 51, 48, 55, 49};
 
-	while (str[0] != '\0')
+	while (*(str + count) != '\0')
 	{
-		for (i = 0; str[i]; i++)
+		for (i = 0; i < 5; i++)
 		{
-			if (str[i] == 'a' || str[i] == 'A')
-				str[i] = '4';
-			else if (str[i] == 'e' || str[i] == 'E')
-				str[i] = '3';
-			else if (str[i] == 'o' || str[i] == 'O')
-				str[i] = '0';
-			else if (str[i] == 't' || str[i] == 'T')
-				str[i] = '7';
-			else if (str[i] == 'l' || str[i] == 'L')
-				str[i] = '1';
+			if (*(str + count) == lower_case[i] || *(str + count) == upper_case[i])
+			{
+				*(str + count) = ieet[i];
+				break;
+			}
 		}
-		return (str);
+		count++;
 	}
+
 	return (str);
 }
