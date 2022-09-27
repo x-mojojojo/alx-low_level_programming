@@ -18,14 +18,10 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if (accept[i] == s[j])
 			{
-				true = 1;
+				sum++;
 				break;
 			}
 		}
-		if (true = 1)
-			sum++;
-		else
-			break;
 	}
 	return (sum);
 }
