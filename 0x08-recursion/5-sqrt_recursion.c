@@ -27,5 +27,5 @@ int sqrt_estimate(int num, int est)
 		return (est);
 	else if (est * est > num)
 		return (-1);
-	return sqrt_estimate(num, est + 1);
+	return (sqrt_estimate(num, est + 1));
 }
