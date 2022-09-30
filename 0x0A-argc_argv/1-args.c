@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * main - print number of arguments passed
+ * main - main function
  * @argc: argument count
  * @argv: arguments
  * Return: 0 if success
