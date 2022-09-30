@@ -7,7 +7,7 @@
  * Return: 0 if success
  */
 
-int main(int argc, char* args[])
+int main(int argc, char *args[])
 {
 	printf("%d\n", argc -1);
 	return (0);
