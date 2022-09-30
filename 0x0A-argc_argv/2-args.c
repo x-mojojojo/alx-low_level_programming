@@ -5,7 +5,7 @@
  * @argv: argument passed.
  * Return: 0 - success.
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
