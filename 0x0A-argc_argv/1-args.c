@@ -1,14 +1,12 @@
 #include <stdio.h>
-
-/*
- * main: main function
- * @argc: argument count
- * @argv: arguments
- * Return: 0 if success
+/**
+ * main - argument counter.
+ * @argc: argument count.
+ * @argv: argument passed.
+ * Return: 0 - success.
  */
-
-int main(int argc, __attribute__((unused))char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-  printf("%d\n", argc - 1);
-  return (0);
+	printf("%d\n", argc - 1);
+	return (0);
 }
