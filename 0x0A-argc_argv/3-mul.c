@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unistd.h>
+#include <stdlib.h>
 /**
  * main - multiply 2 integers passed by argumnt.
  * @argc: argument count.
