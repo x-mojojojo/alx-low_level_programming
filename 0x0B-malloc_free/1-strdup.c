@@ -27,18 +27,17 @@ int lengthofstring(char *s)
 
 char *_strdup(char *str)
 {
-  if (str == NULL)
-		return (NULL);
-
   int k, i;
 	char *ch;
 
 	k = lengthofstring(str) + 1;
+  i = 0;
 	ch = (char *)malloc(k * sizeof(char));
-	i = 0;
 
-	if (ch == NULL)
+  if (ch == NULL)
 		return (NULL);
+  if (str == NULL)
+    return (NULL);
 	while (i < k)
 	{
 		ch[i] = str[i];
