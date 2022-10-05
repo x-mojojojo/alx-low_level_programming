@@ -7,9 +7,9 @@
   *Return: length of string.
   */
 
-int lengthofstring(char* s)
+int lengthofstring(char *s)
 {
-  int length = 0;
+	int length = 0;
 
 	while (*s != '\0')
 	{
@@ -36,14 +36,11 @@ char *_strdup(char *str)
 
 	if (str == NULL || ch == NULL)
 		return (NULL);
-	else
+	while (i < k)
 	{
-		while (i < k)
-		{
-			ch[i] = str[i];
-			i++;
-		}
-		return (ch);
-		free(ch);
+		ch[i] = str[i];
+		i++;
 	}
+	return (ch);
+	free(ch);
 }
