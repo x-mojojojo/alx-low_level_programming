@@ -34,7 +34,7 @@ char *_strdup(char *str)
 	ch = (char *)malloc(k * sizeof(char));
 	i = 0;
 
-	if (str == NULL || ch == NULL)
+	if (str == NULL && ch == NULL)
 		return (NULL);
 	while (i < k)
 	{
