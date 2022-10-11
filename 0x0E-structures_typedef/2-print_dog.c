@@ -6,7 +6,7 @@
  * print_dog - Prints the struct of a dog.
  * @d: struct of dog to be printed.
  */
-void print_dog(struct dog* d)
+void print_dog(struct dog *d)
 {
 	while (d != NULL)
 	{
@@ -25,6 +25,5 @@ void print_dog(struct dog* d)
 		else
 			printf("Owner: (nil)\n");
 		break;
-	}
-	return;
+	};
 }
