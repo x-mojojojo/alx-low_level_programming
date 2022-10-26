@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * get_nodeint_at_index - Locates a node of a list at  a 
- *                        given index.
+ * get_nodeint_at_index - Locates a node of a list at a
+ *                         given index.
  * @head: head of the list.
  * @index: index of the node to be located.
  *
