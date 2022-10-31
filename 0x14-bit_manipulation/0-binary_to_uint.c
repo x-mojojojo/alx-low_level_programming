@@ -11,9 +11,10 @@ size_t _strlen(const char *str)
 {
 	const char *eos = str;
 
-	while (*eos++);
+	while (*eos++)
+		;
 
-	return(eos - str - 1);
+	return (eos - str - 1);
 }
 
 /**
