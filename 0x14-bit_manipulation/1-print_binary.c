@@ -34,7 +34,7 @@ void print_binary(unsigned long int n)
 	size_t binary, decimal, i = 0;
 	char c[20] = {0};
 
-	while (n >= 0)
+	while (n > 0)
 	{
 		if (n == 0)
 		{
