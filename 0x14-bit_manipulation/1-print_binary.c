@@ -2,6 +2,20 @@
 #include "main.h"
 
 /**
+ * _strlen - returns length of string
+ * @str: string
+ * Return: length of string
+ */
+size_t _strlen(const char *str)
+{
+	const char *eos = str;
+
+	while (*eos++);
+
+	return(eos - str - 1);
+}
+
+/**
  * print_rev - prints string in reverse
  * @s: string
  * Return: NULL
